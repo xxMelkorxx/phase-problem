@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Numerics;
 using static System.Math;
 
@@ -15,9 +14,9 @@ namespace Phase_Problem
         /// <param name="t0">Математическое ожидание</param>
         /// <param name="t">Переменная времени</param>
         /// <returns></returns>
-        public static float GaussFunction(float a, float sigma, float t0, float t)
+        public static double GaussFunction(double a, double sigma, double t0, double t)
         {
-            return a * (float)Exp(-Pow((t - t0) / sigma, 2));
+            return a * Exp(-Pow((t - t0) / sigma, 2));
         }
 
         /// <summary>
@@ -26,18 +25,13 @@ namespace Phase_Problem
         /// <param name="complexSpectrum"></param>
         /// <param name="dt"></param>
         /// <returns></returns>
-        public static PointF[] AmplSpectrumPoints(Complex[] complexSpectrum, float dt)
+        public static double[] AmplSpectrumPoints(Complex[] complexSpectrum)
         {
             int length = complexSpectrum.Length;
-            PointF[] amplSpectrum = new PointF[length];
+            double[] amplSpectrum = new double[length];
 
-            float w = 0;
             for (int i = 0; i < length; i++)
-            {
-                amplSpectrum[i].X = w;
-                amplSpectrum[i].Y = (float)complexSpectrum[i].Magnitude;
-                w += 1 / ((length - 1) * dt);
-            }
+                amplSpectrum[i] = complexSpectrum[i].Magnitude;
 
             return amplSpectrum;
         }
@@ -48,45 +42,15 @@ namespace Phase_Problem
         /// <param name="complexSpectrum"></param>
         /// <param name="dt"></param>
         /// <returns></returns>
-        public static PointF[] PhaseSpectrumPoints(Complex[] complexSpectrum, float dt)
+        public static double[] PhaseSpectrumPoints(Complex[] complexSpectrum)
         {
             int length = complexSpectrum.Length;
-            PointF[] phaseSpectrum = new PointF[length];
+            double[] phaseSpectrum = new double[length];
 
-            float w = 0;
             for (int i = 0; i < length; i++)
-            {
-                phaseSpectrum[i].X = w;
-                phaseSpectrum[i].Y = (float)complexSpectrum[i].Phase;
-                w += 1 / ((length - 1) * dt);
-            }
+                phaseSpectrum[i] = complexSpectrum[i].Phase;
 
             return phaseSpectrum;
-        }
-
-        /// <summary>
-        /// Поиск максимального значения по оси Y.
-        /// </summary>
-        /// <param name="massPoints">Массив точек.</param>
-        /// <returns></returns>
-        public static float SearchMaxY(PointF[] massPoints)
-        {
-            float maxValueY = 0;
-            for (var i = 0; i < massPoints.Length; i++)
-                if (maxValueY < massPoints[i].Y) maxValueY = massPoints[i].Y;
-            return maxValueY;
-        }
-        /// <summary>
-        /// Поиск минимального значения по оси Y.
-        /// </summary>
-        /// <param name="massPoints">Массив точек.</param>
-        /// <returns></returns>
-        public static float SearchMinY(PointF[] massPoints)
-        {
-            float minValueY = 0;
-            for (var i = 0; i < massPoints.Length; i++)
-                if (minValueY > massPoints[i].Y) minValueY = massPoints[i].Y;
-            return minValueY;
         }
 
         /// <summary>
@@ -95,32 +59,29 @@ namespace Phase_Problem
         /// <param name="initSgnl"></param>
         /// <param name="recoverSgnl"></param>
         /// <returns></returns>
-        public static PointF[] Shift(PointF[] initSgnl, PointF[] recSgnl)
+        public static double[] Shift(double[] initSgnl, double[] recSgnl)
         {
-            var length = initSgnl.Length;
-            float maxInitSgnl = 0, maxRecSgnl = 0;
+            int length = initSgnl.Length;
+            double maxInitSgnl = 0, maxRecSgnl = 0;
             int iMaxInitS = 0, iMaxRecS = 0, shift;
-            for (var i = 0; i < length; i++)
+            for (int i = 0; i < length; i++)
             {
-                if (maxInitSgnl < initSgnl[i].Y)    // Поиск максимума в исходном сигнале
+                if (maxInitSgnl < initSgnl[i])      // Поиск максимума в исходном сигнале
                 {
-                    maxInitSgnl = initSgnl[i].Y;
+                    maxInitSgnl = initSgnl[i];
                     iMaxInitS = i;
                 }
-                if (maxRecSgnl < recSgnl[i].Y)      // Поиск максимума в восстановленном сигнале
+                if (maxRecSgnl < recSgnl[i])        // Поиск максимума в восстановленном сигнале
                 {
-                    maxRecSgnl = recSgnl[i].Y;
+                    maxRecSgnl = recSgnl[i];
                     iMaxRecS = i;
                 }
             }
-            shift = Abs(iMaxInitS - iMaxRecS);   // Вычисление сдвига
+            shift = Abs(iMaxInitS - iMaxRecS);      // Вычисление сдвига
 
-            var shiftSgnl = new PointF[length];
-            for (var i = 0; i < length; i++)    // Выполнение сдвига
-            {
-                shiftSgnl[i].X = recSgnl[i].X;
-                shiftSgnl[i].Y = recSgnl[(i + shift) % length].Y;
-            }
+            double[] shiftSgnl = new double[length];
+            for (int i = 0; i < length; i++)        // Выполнение сдвига
+                shiftSgnl[i] = recSgnl[(i + shift) % length];
 
             return shiftSgnl;
         }
@@ -140,7 +101,7 @@ namespace Phase_Problem
             rnd = new Random(Guid.NewGuid().GetHashCode());
 
             Sf = new Complex[length];
-            for (var i = 0; i < length; i++)
+            for (int i = 0; i < length; i++)
                 Sf[i] = spectrum[i].Magnitude * Complex.Exp(Complex.ImaginaryOne * 2 * PI * rnd.NextDouble());
         }
 
