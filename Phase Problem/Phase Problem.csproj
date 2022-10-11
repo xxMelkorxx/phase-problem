@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlgorithmFienup.cs" />
     <Compile Include="FFT.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -56,7 +57,7 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainFunctions.cs" />
+    <Compile Include="Calculations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainForm.resx">

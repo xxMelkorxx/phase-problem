@@ -24,66 +24,66 @@ namespace Phase_Problem
         #region Код, автоматически созданный конструктором форм Windows
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.GroupBox groupBox_paramSgnl;
             System.Windows.Forms.GroupBox groupBox_dome5;
-            System.Windows.Forms.Label label_mathExpectation5;
-            System.Windows.Forms.Label label_standartDeviation5;
-            System.Windows.Forms.Label label_amplitude5;
+            System.Windows.Forms.Label label_shift5;
+            System.Windows.Forms.Label label_sigma5;
+            System.Windows.Forms.Label label_a5;
             System.Windows.Forms.GroupBox groupBox_dome4;
-            System.Windows.Forms.Label label_mathExpectation4;
-            System.Windows.Forms.Label label_standartDeviation4;
-            System.Windows.Forms.Label label_amplitude4;
+            System.Windows.Forms.Label label_shift4;
+            System.Windows.Forms.Label label_sigma4;
+            System.Windows.Forms.Label label_a4;
             System.Windows.Forms.GroupBox groupBox_dome3;
-            System.Windows.Forms.Label label_mathExpectation3;
-            System.Windows.Forms.Label label_standartDeviation3;
-            System.Windows.Forms.Label label_amplitude3;
+            System.Windows.Forms.Label label_shift3;
+            System.Windows.Forms.Label label_sigma3;
+            System.Windows.Forms.Label label_a3;
             System.Windows.Forms.GroupBox groupBox_dome2;
-            System.Windows.Forms.Label label_mathExpectation2;
-            System.Windows.Forms.Label label_standartDeviation2;
-            System.Windows.Forms.Label label_amplitude2;
+            System.Windows.Forms.Label label_shift2;
+            System.Windows.Forms.Label label_sigma2;
+            System.Windows.Forms.Label label_a2;
             System.Windows.Forms.GroupBox groupBox_dome1;
-            System.Windows.Forms.Label label_mathExpectation1;
-            System.Windows.Forms.Label label_standartDeviation1;
-            System.Windows.Forms.Label label_amplitude1;
+            System.Windows.Forms.Label label_shift1;
+            System.Windows.Forms.Label label_sigma1;
+            System.Windows.Forms.Label label_a1;
             System.Windows.Forms.GroupBox groupBox_graphAmplSpectrum;
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.GroupBox groupBoxgraph_graphSgnls;
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.Label label_deviation;
             System.Windows.Forms.Label label_accuracy;
             System.Windows.Forms.GroupBox groupBox_phaseRecovery;
             System.Windows.Forms.GroupBox groupBox_graphPhaseSpectrum;
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            this.numUpDown_mathExpectation5 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_standartDeviation5 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_amplitude5 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_mathExpectation4 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_standartDeviation4 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_amplitude4 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_mathExpectation3 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_standartDeviation3 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_amplitude3 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_mathExpectation2 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_standartDeviation2 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_amplitude2 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_mathExpectation1 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_standartDeviation1 = new System.Windows.Forms.NumericUpDown();
-            this.numUpDown_amplitude1 = new System.Windows.Forms.NumericUpDown();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.numUpDown_shift5 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_sigma5 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_a5 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_shift4 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_sigma4 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_a4 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_shift3 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_sigma3 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_a3 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_shift2 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_sigma2 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_a2 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_shift1 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_sigma1 = new System.Windows.Forms.NumericUpDown();
+            this.numUpDown_a1 = new System.Windows.Forms.NumericUpDown();
             this.chart_amplSpectr = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chart_Sgnls = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart_Signals = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.button_Reverse = new System.Windows.Forms.Button();
             this.button_Reset = new System.Windows.Forms.Button();
             this.button_Shift = new System.Windows.Forms.Button();
@@ -95,25 +95,25 @@ namespace Phase_Problem
             this.timer = new System.Windows.Forms.Timer(this.components);
             groupBox_paramSgnl = new System.Windows.Forms.GroupBox();
             groupBox_dome5 = new System.Windows.Forms.GroupBox();
-            label_mathExpectation5 = new System.Windows.Forms.Label();
-            label_standartDeviation5 = new System.Windows.Forms.Label();
-            label_amplitude5 = new System.Windows.Forms.Label();
+            label_shift5 = new System.Windows.Forms.Label();
+            label_sigma5 = new System.Windows.Forms.Label();
+            label_a5 = new System.Windows.Forms.Label();
             groupBox_dome4 = new System.Windows.Forms.GroupBox();
-            label_mathExpectation4 = new System.Windows.Forms.Label();
-            label_standartDeviation4 = new System.Windows.Forms.Label();
-            label_amplitude4 = new System.Windows.Forms.Label();
+            label_shift4 = new System.Windows.Forms.Label();
+            label_sigma4 = new System.Windows.Forms.Label();
+            label_a4 = new System.Windows.Forms.Label();
             groupBox_dome3 = new System.Windows.Forms.GroupBox();
-            label_mathExpectation3 = new System.Windows.Forms.Label();
-            label_standartDeviation3 = new System.Windows.Forms.Label();
-            label_amplitude3 = new System.Windows.Forms.Label();
+            label_shift3 = new System.Windows.Forms.Label();
+            label_sigma3 = new System.Windows.Forms.Label();
+            label_a3 = new System.Windows.Forms.Label();
             groupBox_dome2 = new System.Windows.Forms.GroupBox();
-            label_mathExpectation2 = new System.Windows.Forms.Label();
-            label_standartDeviation2 = new System.Windows.Forms.Label();
-            label_amplitude2 = new System.Windows.Forms.Label();
+            label_shift2 = new System.Windows.Forms.Label();
+            label_sigma2 = new System.Windows.Forms.Label();
+            label_a2 = new System.Windows.Forms.Label();
             groupBox_dome1 = new System.Windows.Forms.GroupBox();
-            label_mathExpectation1 = new System.Windows.Forms.Label();
-            label_standartDeviation1 = new System.Windows.Forms.Label();
-            label_amplitude1 = new System.Windows.Forms.Label();
+            label_shift1 = new System.Windows.Forms.Label();
+            label_sigma1 = new System.Windows.Forms.Label();
+            label_a1 = new System.Windows.Forms.Label();
             groupBox_graphAmplSpectrum = new System.Windows.Forms.GroupBox();
             groupBoxgraph_graphSgnls = new System.Windows.Forms.GroupBox();
             label_deviation = new System.Windows.Forms.Label();
@@ -122,29 +122,29 @@ namespace Phase_Problem
             groupBox_graphPhaseSpectrum = new System.Windows.Forms.GroupBox();
             groupBox_paramSgnl.SuspendLayout();
             groupBox_dome5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a5)).BeginInit();
             groupBox_dome4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a4)).BeginInit();
             groupBox_dome3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a3)).BeginInit();
             groupBox_dome2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a2)).BeginInit();
             groupBox_dome1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a1)).BeginInit();
             groupBox_graphAmplSpectrum.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart_amplSpectr)).BeginInit();
             groupBoxgraph_graphSgnls.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Sgnls)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_Signals)).BeginInit();
             groupBox_phaseRecovery.SuspendLayout();
             groupBox_graphPhaseSpectrum.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart_phaseSpectr)).BeginInit();
@@ -166,14 +166,13 @@ namespace Phase_Problem
             // 
             // groupBox_dome5
             // 
-            groupBox_dome5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            groupBox_dome5.Controls.Add(label_mathExpectation5);
-            groupBox_dome5.Controls.Add(label_standartDeviation5);
-            groupBox_dome5.Controls.Add(label_amplitude5);
-            groupBox_dome5.Controls.Add(this.numUpDown_mathExpectation5);
-            groupBox_dome5.Controls.Add(this.numUpDown_standartDeviation5);
-            groupBox_dome5.Controls.Add(this.numUpDown_amplitude5);
+            groupBox_dome5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            groupBox_dome5.Controls.Add(label_shift5);
+            groupBox_dome5.Controls.Add(label_sigma5);
+            groupBox_dome5.Controls.Add(label_a5);
+            groupBox_dome5.Controls.Add(this.numUpDown_shift5);
+            groupBox_dome5.Controls.Add(this.numUpDown_sigma5);
+            groupBox_dome5.Controls.Add(this.numUpDown_a5);
             groupBox_dome5.Location = new System.Drawing.Point(6, 435);
             groupBox_dome5.Name = "groupBox_dome5";
             groupBox_dome5.Size = new System.Drawing.Size(138, 98);
@@ -181,114 +180,77 @@ namespace Phase_Problem
             groupBox_dome5.TabStop = false;
             groupBox_dome5.Text = "Купол №5";
             // 
-            // label_mathExpectation5
+            // label_shift5
             // 
-            label_mathExpectation5.AutoSize = true;
-            label_mathExpectation5.Location = new System.Drawing.Point(6, 73);
-            label_mathExpectation5.Name = "label_mathExpectation5";
-            label_mathExpectation5.Size = new System.Drawing.Size(28, 13);
-            label_mathExpectation5.TabIndex = 5;
-            label_mathExpectation5.Text = "t0 = ";
+            label_shift5.AutoSize = true;
+            label_shift5.Location = new System.Drawing.Point(6, 73);
+            label_shift5.Name = "label_shift5";
+            label_shift5.Size = new System.Drawing.Size(28, 13);
+            label_shift5.TabIndex = 5;
+            label_shift5.Text = "t0 = ";
             // 
-            // label_standartDeviation5
+            // label_sigma5
             // 
-            label_standartDeviation5.AutoSize = true;
-            label_standartDeviation5.Location = new System.Drawing.Point(6, 47);
-            label_standartDeviation5.Name = "label_standartDeviation5";
-            label_standartDeviation5.Size = new System.Drawing.Size(23, 13);
-            label_standartDeviation5.TabIndex = 4;
-            label_standartDeviation5.Text = "σ =";
+            label_sigma5.AutoSize = true;
+            label_sigma5.Location = new System.Drawing.Point(6, 47);
+            label_sigma5.Name = "label_sigma5";
+            label_sigma5.Size = new System.Drawing.Size(23, 13);
+            label_sigma5.TabIndex = 4;
+            label_sigma5.Text = "σ =";
             // 
-            // label_amplitude5
+            // label_a5
             // 
-            label_amplitude5.AutoSize = true;
-            label_amplitude5.Location = new System.Drawing.Point(6, 21);
-            label_amplitude5.Name = "label_amplitude5";
-            label_amplitude5.Size = new System.Drawing.Size(23, 13);
-            label_amplitude5.TabIndex = 3;
-            label_amplitude5.Text = "A =";
+            label_a5.AutoSize = true;
+            label_a5.Location = new System.Drawing.Point(6, 21);
+            label_a5.Name = "label_a5";
+            label_a5.Size = new System.Drawing.Size(23, 13);
+            label_a5.TabIndex = 3;
+            label_a5.Text = "A =";
             // 
-            // numUpDown_mathExpectation5
+            // numUpDown_shift5
             // 
-            this.numUpDown_mathExpectation5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_mathExpectation5.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_mathExpectation5.Location = new System.Drawing.Point(37, 71);
-            this.numUpDown_mathExpectation5.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation5.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation5.Name = "numUpDown_mathExpectation5";
-            this.numUpDown_mathExpectation5.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_mathExpectation5.TabIndex = 2;
-            this.numUpDown_mathExpectation5.Value = new decimal(new int[] {
-            920,
-            0,
-            0,
-            0});
+            this.numUpDown_shift5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_shift5.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_shift5.Location = new System.Drawing.Point(37, 71);
+            this.numUpDown_shift5.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            this.numUpDown_shift5.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            this.numUpDown_shift5.Name = "numUpDown_shift5";
+            this.numUpDown_shift5.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_shift5.TabIndex = 2;
+            this.numUpDown_shift5.Value = new decimal(new int[] { 920, 0, 0, 0 });
             // 
-            // numUpDown_standartDeviation5
+            // numUpDown_sigma5
             // 
-            this.numUpDown_standartDeviation5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_standartDeviation5.DecimalPlaces = 1;
-            this.numUpDown_standartDeviation5.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation5.Location = new System.Drawing.Point(37, 45);
-            this.numUpDown_standartDeviation5.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation5.Name = "numUpDown_standartDeviation5";
-            this.numUpDown_standartDeviation5.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_standartDeviation5.TabIndex = 1;
-            this.numUpDown_standartDeviation5.Value = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+            this.numUpDown_sigma5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_sigma5.DecimalPlaces = 1;
+            this.numUpDown_sigma5.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_sigma5.Location = new System.Drawing.Point(37, 45);
+            this.numUpDown_sigma5.Minimum = new decimal(new int[] { 1, 0, 0, 65536 });
+            this.numUpDown_sigma5.Name = "numUpDown_sigma5";
+            this.numUpDown_sigma5.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_sigma5.TabIndex = 1;
+            this.numUpDown_sigma5.Value = new decimal(new int[] { 3, 0, 0, 0 });
             // 
-            // numUpDown_amplitude5
+            // numUpDown_a5
             // 
-            this.numUpDown_amplitude5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_amplitude5.DecimalPlaces = 1;
-            this.numUpDown_amplitude5.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_amplitude5.Location = new System.Drawing.Point(37, 19);
-            this.numUpDown_amplitude5.Name = "numUpDown_amplitude5";
-            this.numUpDown_amplitude5.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_amplitude5.TabIndex = 0;
-            this.numUpDown_amplitude5.Value = new decimal(new int[] {
-            35,
-            0,
-            0,
-            65536});
+            this.numUpDown_a5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_a5.DecimalPlaces = 1;
+            this.numUpDown_a5.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_a5.Location = new System.Drawing.Point(37, 19);
+            this.numUpDown_a5.Name = "numUpDown_a5";
+            this.numUpDown_a5.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_a5.TabIndex = 0;
+            this.numUpDown_a5.Value = new decimal(new int[] { 35, 0, 0, 65536 });
             // 
             // groupBox_dome4
             // 
-            groupBox_dome4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            groupBox_dome4.Controls.Add(label_mathExpectation4);
-            groupBox_dome4.Controls.Add(label_standartDeviation4);
-            groupBox_dome4.Controls.Add(label_amplitude4);
-            groupBox_dome4.Controls.Add(this.numUpDown_mathExpectation4);
-            groupBox_dome4.Controls.Add(this.numUpDown_standartDeviation4);
-            groupBox_dome4.Controls.Add(this.numUpDown_amplitude4);
+            groupBox_dome4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            groupBox_dome4.Controls.Add(label_shift4);
+            groupBox_dome4.Controls.Add(label_sigma4);
+            groupBox_dome4.Controls.Add(label_a4);
+            groupBox_dome4.Controls.Add(this.numUpDown_shift4);
+            groupBox_dome4.Controls.Add(this.numUpDown_sigma4);
+            groupBox_dome4.Controls.Add(this.numUpDown_a4);
             groupBox_dome4.Location = new System.Drawing.Point(6, 331);
             groupBox_dome4.Name = "groupBox_dome4";
             groupBox_dome4.Size = new System.Drawing.Size(138, 98);
@@ -296,114 +258,77 @@ namespace Phase_Problem
             groupBox_dome4.TabStop = false;
             groupBox_dome4.Text = "Купол №4";
             // 
-            // label_mathExpectation4
+            // label_shift4
             // 
-            label_mathExpectation4.AutoSize = true;
-            label_mathExpectation4.Location = new System.Drawing.Point(6, 73);
-            label_mathExpectation4.Name = "label_mathExpectation4";
-            label_mathExpectation4.Size = new System.Drawing.Size(28, 13);
-            label_mathExpectation4.TabIndex = 5;
-            label_mathExpectation4.Text = "t0 = ";
+            label_shift4.AutoSize = true;
+            label_shift4.Location = new System.Drawing.Point(6, 73);
+            label_shift4.Name = "label_shift4";
+            label_shift4.Size = new System.Drawing.Size(28, 13);
+            label_shift4.TabIndex = 5;
+            label_shift4.Text = "t0 = ";
             // 
-            // label_standartDeviation4
+            // label_sigma4
             // 
-            label_standartDeviation4.AutoSize = true;
-            label_standartDeviation4.Location = new System.Drawing.Point(6, 47);
-            label_standartDeviation4.Name = "label_standartDeviation4";
-            label_standartDeviation4.Size = new System.Drawing.Size(23, 13);
-            label_standartDeviation4.TabIndex = 4;
-            label_standartDeviation4.Text = "σ =";
+            label_sigma4.AutoSize = true;
+            label_sigma4.Location = new System.Drawing.Point(6, 47);
+            label_sigma4.Name = "label_sigma4";
+            label_sigma4.Size = new System.Drawing.Size(23, 13);
+            label_sigma4.TabIndex = 4;
+            label_sigma4.Text = "σ =";
             // 
-            // label_amplitude4
+            // label_a4
             // 
-            label_amplitude4.AutoSize = true;
-            label_amplitude4.Location = new System.Drawing.Point(6, 21);
-            label_amplitude4.Name = "label_amplitude4";
-            label_amplitude4.Size = new System.Drawing.Size(23, 13);
-            label_amplitude4.TabIndex = 3;
-            label_amplitude4.Text = "A =";
+            label_a4.AutoSize = true;
+            label_a4.Location = new System.Drawing.Point(6, 21);
+            label_a4.Name = "label_a4";
+            label_a4.Size = new System.Drawing.Size(23, 13);
+            label_a4.TabIndex = 3;
+            label_a4.Text = "A =";
             // 
-            // numUpDown_mathExpectation4
+            // numUpDown_shift4
             // 
-            this.numUpDown_mathExpectation4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_mathExpectation4.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_mathExpectation4.Location = new System.Drawing.Point(37, 71);
-            this.numUpDown_mathExpectation4.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation4.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation4.Name = "numUpDown_mathExpectation4";
-            this.numUpDown_mathExpectation4.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_mathExpectation4.TabIndex = 2;
-            this.numUpDown_mathExpectation4.Value = new decimal(new int[] {
-            800,
-            0,
-            0,
-            0});
+            this.numUpDown_shift4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_shift4.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_shift4.Location = new System.Drawing.Point(37, 71);
+            this.numUpDown_shift4.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            this.numUpDown_shift4.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            this.numUpDown_shift4.Name = "numUpDown_shift4";
+            this.numUpDown_shift4.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_shift4.TabIndex = 2;
+            this.numUpDown_shift4.Value = new decimal(new int[] { 800, 0, 0, 0 });
             // 
-            // numUpDown_standartDeviation4
+            // numUpDown_sigma4
             // 
-            this.numUpDown_standartDeviation4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_standartDeviation4.DecimalPlaces = 1;
-            this.numUpDown_standartDeviation4.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation4.Location = new System.Drawing.Point(37, 45);
-            this.numUpDown_standartDeviation4.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation4.Name = "numUpDown_standartDeviation4";
-            this.numUpDown_standartDeviation4.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_standartDeviation4.TabIndex = 1;
-            this.numUpDown_standartDeviation4.Value = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
+            this.numUpDown_sigma4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_sigma4.DecimalPlaces = 1;
+            this.numUpDown_sigma4.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_sigma4.Location = new System.Drawing.Point(37, 45);
+            this.numUpDown_sigma4.Minimum = new decimal(new int[] { 1, 0, 0, 65536 });
+            this.numUpDown_sigma4.Name = "numUpDown_sigma4";
+            this.numUpDown_sigma4.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_sigma4.TabIndex = 1;
+            this.numUpDown_sigma4.Value = new decimal(new int[] { 2, 0, 0, 0 });
             // 
-            // numUpDown_amplitude4
+            // numUpDown_a4
             // 
-            this.numUpDown_amplitude4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_amplitude4.DecimalPlaces = 1;
-            this.numUpDown_amplitude4.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_amplitude4.Location = new System.Drawing.Point(37, 19);
-            this.numUpDown_amplitude4.Name = "numUpDown_amplitude4";
-            this.numUpDown_amplitude4.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_amplitude4.TabIndex = 0;
-            this.numUpDown_amplitude4.Value = new decimal(new int[] {
-            25,
-            0,
-            0,
-            65536});
+            this.numUpDown_a4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_a4.DecimalPlaces = 1;
+            this.numUpDown_a4.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_a4.Location = new System.Drawing.Point(37, 19);
+            this.numUpDown_a4.Name = "numUpDown_a4";
+            this.numUpDown_a4.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_a4.TabIndex = 0;
+            this.numUpDown_a4.Value = new decimal(new int[] { 25, 0, 0, 65536 });
             // 
             // groupBox_dome3
             // 
-            groupBox_dome3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            groupBox_dome3.Controls.Add(label_mathExpectation3);
-            groupBox_dome3.Controls.Add(label_standartDeviation3);
-            groupBox_dome3.Controls.Add(label_amplitude3);
-            groupBox_dome3.Controls.Add(this.numUpDown_mathExpectation3);
-            groupBox_dome3.Controls.Add(this.numUpDown_standartDeviation3);
-            groupBox_dome3.Controls.Add(this.numUpDown_amplitude3);
+            groupBox_dome3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            groupBox_dome3.Controls.Add(label_shift3);
+            groupBox_dome3.Controls.Add(label_sigma3);
+            groupBox_dome3.Controls.Add(label_a3);
+            groupBox_dome3.Controls.Add(this.numUpDown_shift3);
+            groupBox_dome3.Controls.Add(this.numUpDown_sigma3);
+            groupBox_dome3.Controls.Add(this.numUpDown_a3);
             groupBox_dome3.Location = new System.Drawing.Point(6, 227);
             groupBox_dome3.Name = "groupBox_dome3";
             groupBox_dome3.Size = new System.Drawing.Size(138, 98);
@@ -411,114 +336,77 @@ namespace Phase_Problem
             groupBox_dome3.TabStop = false;
             groupBox_dome3.Text = "Купол №3";
             // 
-            // label_mathExpectation3
+            // label_shift3
             // 
-            label_mathExpectation3.AutoSize = true;
-            label_mathExpectation3.Location = new System.Drawing.Point(6, 73);
-            label_mathExpectation3.Name = "label_mathExpectation3";
-            label_mathExpectation3.Size = new System.Drawing.Size(28, 13);
-            label_mathExpectation3.TabIndex = 5;
-            label_mathExpectation3.Text = "t0 = ";
+            label_shift3.AutoSize = true;
+            label_shift3.Location = new System.Drawing.Point(6, 73);
+            label_shift3.Name = "label_shift3";
+            label_shift3.Size = new System.Drawing.Size(28, 13);
+            label_shift3.TabIndex = 5;
+            label_shift3.Text = "t0 = ";
             // 
-            // label_standartDeviation3
+            // label_sigma3
             // 
-            label_standartDeviation3.AutoSize = true;
-            label_standartDeviation3.Location = new System.Drawing.Point(6, 47);
-            label_standartDeviation3.Name = "label_standartDeviation3";
-            label_standartDeviation3.Size = new System.Drawing.Size(23, 13);
-            label_standartDeviation3.TabIndex = 4;
-            label_standartDeviation3.Text = "σ =";
+            label_sigma3.AutoSize = true;
+            label_sigma3.Location = new System.Drawing.Point(6, 47);
+            label_sigma3.Name = "label_sigma3";
+            label_sigma3.Size = new System.Drawing.Size(23, 13);
+            label_sigma3.TabIndex = 4;
+            label_sigma3.Text = "σ =";
             // 
-            // label_amplitude3
+            // label_a3
             // 
-            label_amplitude3.AutoSize = true;
-            label_amplitude3.Location = new System.Drawing.Point(6, 21);
-            label_amplitude3.Name = "label_amplitude3";
-            label_amplitude3.Size = new System.Drawing.Size(23, 13);
-            label_amplitude3.TabIndex = 3;
-            label_amplitude3.Text = "A =";
+            label_a3.AutoSize = true;
+            label_a3.Location = new System.Drawing.Point(6, 21);
+            label_a3.Name = "label_a3";
+            label_a3.Size = new System.Drawing.Size(23, 13);
+            label_a3.TabIndex = 3;
+            label_a3.Text = "A =";
             // 
-            // numUpDown_mathExpectation3
+            // numUpDown_shift3
             // 
-            this.numUpDown_mathExpectation3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_mathExpectation3.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_mathExpectation3.Location = new System.Drawing.Point(37, 71);
-            this.numUpDown_mathExpectation3.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation3.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation3.Name = "numUpDown_mathExpectation3";
-            this.numUpDown_mathExpectation3.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_mathExpectation3.TabIndex = 2;
-            this.numUpDown_mathExpectation3.Value = new decimal(new int[] {
-            600,
-            0,
-            0,
-            0});
+            this.numUpDown_shift3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_shift3.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_shift3.Location = new System.Drawing.Point(37, 71);
+            this.numUpDown_shift3.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            this.numUpDown_shift3.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            this.numUpDown_shift3.Name = "numUpDown_shift3";
+            this.numUpDown_shift3.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_shift3.TabIndex = 2;
+            this.numUpDown_shift3.Value = new decimal(new int[] { 600, 0, 0, 0 });
             // 
-            // numUpDown_standartDeviation3
+            // numUpDown_sigma3
             // 
-            this.numUpDown_standartDeviation3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_standartDeviation3.DecimalPlaces = 1;
-            this.numUpDown_standartDeviation3.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation3.Location = new System.Drawing.Point(37, 45);
-            this.numUpDown_standartDeviation3.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation3.Name = "numUpDown_standartDeviation3";
-            this.numUpDown_standartDeviation3.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_standartDeviation3.TabIndex = 1;
-            this.numUpDown_standartDeviation3.Value = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+            this.numUpDown_sigma3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_sigma3.DecimalPlaces = 1;
+            this.numUpDown_sigma3.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_sigma3.Location = new System.Drawing.Point(37, 45);
+            this.numUpDown_sigma3.Minimum = new decimal(new int[] { 1, 0, 0, 65536 });
+            this.numUpDown_sigma3.Name = "numUpDown_sigma3";
+            this.numUpDown_sigma3.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_sigma3.TabIndex = 1;
+            this.numUpDown_sigma3.Value = new decimal(new int[] { 3, 0, 0, 0 });
             // 
-            // numUpDown_amplitude3
+            // numUpDown_a3
             // 
-            this.numUpDown_amplitude3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_amplitude3.DecimalPlaces = 1;
-            this.numUpDown_amplitude3.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_amplitude3.Location = new System.Drawing.Point(37, 19);
-            this.numUpDown_amplitude3.Name = "numUpDown_amplitude3";
-            this.numUpDown_amplitude3.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_amplitude3.TabIndex = 0;
-            this.numUpDown_amplitude3.Value = new decimal(new int[] {
-            35,
-            0,
-            0,
-            65536});
+            this.numUpDown_a3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_a3.DecimalPlaces = 1;
+            this.numUpDown_a3.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_a3.Location = new System.Drawing.Point(37, 19);
+            this.numUpDown_a3.Name = "numUpDown_a3";
+            this.numUpDown_a3.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_a3.TabIndex = 0;
+            this.numUpDown_a3.Value = new decimal(new int[] { 35, 0, 0, 65536 });
             // 
             // groupBox_dome2
             // 
-            groupBox_dome2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            groupBox_dome2.Controls.Add(label_mathExpectation2);
-            groupBox_dome2.Controls.Add(label_standartDeviation2);
-            groupBox_dome2.Controls.Add(label_amplitude2);
-            groupBox_dome2.Controls.Add(this.numUpDown_mathExpectation2);
-            groupBox_dome2.Controls.Add(this.numUpDown_standartDeviation2);
-            groupBox_dome2.Controls.Add(this.numUpDown_amplitude2);
+            groupBox_dome2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            groupBox_dome2.Controls.Add(label_shift2);
+            groupBox_dome2.Controls.Add(label_sigma2);
+            groupBox_dome2.Controls.Add(label_a2);
+            groupBox_dome2.Controls.Add(this.numUpDown_shift2);
+            groupBox_dome2.Controls.Add(this.numUpDown_sigma2);
+            groupBox_dome2.Controls.Add(this.numUpDown_a2);
             groupBox_dome2.Location = new System.Drawing.Point(6, 123);
             groupBox_dome2.Name = "groupBox_dome2";
             groupBox_dome2.Size = new System.Drawing.Size(138, 98);
@@ -526,114 +414,77 @@ namespace Phase_Problem
             groupBox_dome2.TabStop = false;
             groupBox_dome2.Text = "Купол №2";
             // 
-            // label_mathExpectation2
+            // label_shift2
             // 
-            label_mathExpectation2.AutoSize = true;
-            label_mathExpectation2.Location = new System.Drawing.Point(6, 73);
-            label_mathExpectation2.Name = "label_mathExpectation2";
-            label_mathExpectation2.Size = new System.Drawing.Size(28, 13);
-            label_mathExpectation2.TabIndex = 5;
-            label_mathExpectation2.Text = "t0 = ";
+            label_shift2.AutoSize = true;
+            label_shift2.Location = new System.Drawing.Point(6, 73);
+            label_shift2.Name = "label_shift2";
+            label_shift2.Size = new System.Drawing.Size(28, 13);
+            label_shift2.TabIndex = 5;
+            label_shift2.Text = "t0 = ";
             // 
-            // label_standartDeviation2
+            // label_sigma2
             // 
-            label_standartDeviation2.AutoSize = true;
-            label_standartDeviation2.Location = new System.Drawing.Point(6, 47);
-            label_standartDeviation2.Name = "label_standartDeviation2";
-            label_standartDeviation2.Size = new System.Drawing.Size(23, 13);
-            label_standartDeviation2.TabIndex = 4;
-            label_standartDeviation2.Text = "σ =";
+            label_sigma2.AutoSize = true;
+            label_sigma2.Location = new System.Drawing.Point(6, 47);
+            label_sigma2.Name = "label_sigma2";
+            label_sigma2.Size = new System.Drawing.Size(23, 13);
+            label_sigma2.TabIndex = 4;
+            label_sigma2.Text = "σ =";
             // 
-            // label_amplitude2
+            // label_a2
             // 
-            label_amplitude2.AutoSize = true;
-            label_amplitude2.Location = new System.Drawing.Point(6, 21);
-            label_amplitude2.Name = "label_amplitude2";
-            label_amplitude2.Size = new System.Drawing.Size(23, 13);
-            label_amplitude2.TabIndex = 3;
-            label_amplitude2.Text = "A =";
+            label_a2.AutoSize = true;
+            label_a2.Location = new System.Drawing.Point(6, 21);
+            label_a2.Name = "label_a2";
+            label_a2.Size = new System.Drawing.Size(23, 13);
+            label_a2.TabIndex = 3;
+            label_a2.Text = "A =";
             // 
-            // numUpDown_mathExpectation2
+            // numUpDown_shift2
             // 
-            this.numUpDown_mathExpectation2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_mathExpectation2.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_mathExpectation2.Location = new System.Drawing.Point(37, 71);
-            this.numUpDown_mathExpectation2.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation2.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation2.Name = "numUpDown_mathExpectation2";
-            this.numUpDown_mathExpectation2.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_mathExpectation2.TabIndex = 2;
-            this.numUpDown_mathExpectation2.Value = new decimal(new int[] {
-            380,
-            0,
-            0,
-            0});
+            this.numUpDown_shift2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_shift2.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_shift2.Location = new System.Drawing.Point(37, 71);
+            this.numUpDown_shift2.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            this.numUpDown_shift2.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            this.numUpDown_shift2.Name = "numUpDown_shift2";
+            this.numUpDown_shift2.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_shift2.TabIndex = 2;
+            this.numUpDown_shift2.Value = new decimal(new int[] { 380, 0, 0, 0 });
             // 
-            // numUpDown_standartDeviation2
+            // numUpDown_sigma2
             // 
-            this.numUpDown_standartDeviation2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_standartDeviation2.DecimalPlaces = 1;
-            this.numUpDown_standartDeviation2.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation2.Location = new System.Drawing.Point(37, 45);
-            this.numUpDown_standartDeviation2.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation2.Name = "numUpDown_standartDeviation2";
-            this.numUpDown_standartDeviation2.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_standartDeviation2.TabIndex = 1;
-            this.numUpDown_standartDeviation2.Value = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
+            this.numUpDown_sigma2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_sigma2.DecimalPlaces = 1;
+            this.numUpDown_sigma2.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_sigma2.Location = new System.Drawing.Point(37, 45);
+            this.numUpDown_sigma2.Minimum = new decimal(new int[] { 1, 0, 0, 65536 });
+            this.numUpDown_sigma2.Name = "numUpDown_sigma2";
+            this.numUpDown_sigma2.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_sigma2.TabIndex = 1;
+            this.numUpDown_sigma2.Value = new decimal(new int[] { 2, 0, 0, 0 });
             // 
-            // numUpDown_amplitude2
+            // numUpDown_a2
             // 
-            this.numUpDown_amplitude2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_amplitude2.DecimalPlaces = 1;
-            this.numUpDown_amplitude2.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_amplitude2.Location = new System.Drawing.Point(37, 19);
-            this.numUpDown_amplitude2.Name = "numUpDown_amplitude2";
-            this.numUpDown_amplitude2.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_amplitude2.TabIndex = 0;
-            this.numUpDown_amplitude2.Value = new decimal(new int[] {
-            2,
-            0,
-            0,
-            0});
+            this.numUpDown_a2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_a2.DecimalPlaces = 1;
+            this.numUpDown_a2.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_a2.Location = new System.Drawing.Point(37, 19);
+            this.numUpDown_a2.Name = "numUpDown_a2";
+            this.numUpDown_a2.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_a2.TabIndex = 0;
+            this.numUpDown_a2.Value = new decimal(new int[] { 2, 0, 0, 0 });
             // 
             // groupBox_dome1
             // 
-            groupBox_dome1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            groupBox_dome1.Controls.Add(label_mathExpectation1);
-            groupBox_dome1.Controls.Add(label_standartDeviation1);
-            groupBox_dome1.Controls.Add(label_amplitude1);
-            groupBox_dome1.Controls.Add(this.numUpDown_mathExpectation1);
-            groupBox_dome1.Controls.Add(this.numUpDown_standartDeviation1);
-            groupBox_dome1.Controls.Add(this.numUpDown_amplitude1);
+            groupBox_dome1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            groupBox_dome1.Controls.Add(label_shift1);
+            groupBox_dome1.Controls.Add(label_sigma1);
+            groupBox_dome1.Controls.Add(label_a1);
+            groupBox_dome1.Controls.Add(this.numUpDown_shift1);
+            groupBox_dome1.Controls.Add(this.numUpDown_sigma1);
+            groupBox_dome1.Controls.Add(this.numUpDown_a1);
             groupBox_dome1.Location = new System.Drawing.Point(6, 19);
             groupBox_dome1.Name = "groupBox_dome1";
             groupBox_dome1.Size = new System.Drawing.Size(138, 98);
@@ -641,103 +492,67 @@ namespace Phase_Problem
             groupBox_dome1.TabStop = false;
             groupBox_dome1.Text = "Купол №1";
             // 
-            // label_mathExpectation1
+            // label_shift1
             // 
-            label_mathExpectation1.AutoSize = true;
-            label_mathExpectation1.Location = new System.Drawing.Point(6, 73);
-            label_mathExpectation1.Name = "label_mathExpectation1";
-            label_mathExpectation1.Size = new System.Drawing.Size(28, 13);
-            label_mathExpectation1.TabIndex = 5;
-            label_mathExpectation1.Text = "t0 = ";
+            label_shift1.AutoSize = true;
+            label_shift1.Location = new System.Drawing.Point(6, 73);
+            label_shift1.Name = "label_shift1";
+            label_shift1.Size = new System.Drawing.Size(28, 13);
+            label_shift1.TabIndex = 5;
+            label_shift1.Text = "t0 = ";
             // 
-            // label_standartDeviation1
+            // label_sigma1
             // 
-            label_standartDeviation1.AutoSize = true;
-            label_standartDeviation1.Location = new System.Drawing.Point(6, 47);
-            label_standartDeviation1.Name = "label_standartDeviation1";
-            label_standartDeviation1.Size = new System.Drawing.Size(23, 13);
-            label_standartDeviation1.TabIndex = 4;
-            label_standartDeviation1.Text = "σ =";
+            label_sigma1.AutoSize = true;
+            label_sigma1.Location = new System.Drawing.Point(6, 47);
+            label_sigma1.Name = "label_sigma1";
+            label_sigma1.Size = new System.Drawing.Size(23, 13);
+            label_sigma1.TabIndex = 4;
+            label_sigma1.Text = "σ =";
             // 
-            // label_amplitude1
+            // label_a1
             // 
-            label_amplitude1.AutoSize = true;
-            label_amplitude1.Location = new System.Drawing.Point(6, 21);
-            label_amplitude1.Name = "label_amplitude1";
-            label_amplitude1.Size = new System.Drawing.Size(23, 13);
-            label_amplitude1.TabIndex = 3;
-            label_amplitude1.Text = "A =";
+            label_a1.AutoSize = true;
+            label_a1.Location = new System.Drawing.Point(6, 21);
+            label_a1.Name = "label_a1";
+            label_a1.Size = new System.Drawing.Size(23, 13);
+            label_a1.TabIndex = 3;
+            label_a1.Text = "A =";
             // 
-            // numUpDown_mathExpectation1
+            // numUpDown_shift1
             // 
-            this.numUpDown_mathExpectation1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_mathExpectation1.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_mathExpectation1.Location = new System.Drawing.Point(37, 71);
-            this.numUpDown_mathExpectation1.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numUpDown_mathExpectation1.Name = "numUpDown_mathExpectation1";
-            this.numUpDown_mathExpectation1.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_mathExpectation1.TabIndex = 2;
-            this.numUpDown_mathExpectation1.Value = new decimal(new int[] {
-            150,
-            0,
-            0,
-            0});
+            this.numUpDown_shift1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_shift1.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_shift1.Location = new System.Drawing.Point(37, 71);
+            this.numUpDown_shift1.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            this.numUpDown_shift1.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            this.numUpDown_shift1.Name = "numUpDown_shift1";
+            this.numUpDown_shift1.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_shift1.TabIndex = 2;
+            this.numUpDown_shift1.Value = new decimal(new int[] { 150, 0, 0, 0 });
             // 
-            // numUpDown_standartDeviation1
+            // numUpDown_sigma1
             // 
-            this.numUpDown_standartDeviation1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_standartDeviation1.DecimalPlaces = 1;
-            this.numUpDown_standartDeviation1.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation1.Location = new System.Drawing.Point(37, 45);
-            this.numUpDown_standartDeviation1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            65536});
-            this.numUpDown_standartDeviation1.Name = "numUpDown_standartDeviation1";
-            this.numUpDown_standartDeviation1.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_standartDeviation1.TabIndex = 1;
-            this.numUpDown_standartDeviation1.Value = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
+            this.numUpDown_sigma1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_sigma1.DecimalPlaces = 1;
+            this.numUpDown_sigma1.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_sigma1.Location = new System.Drawing.Point(37, 45);
+            this.numUpDown_sigma1.Minimum = new decimal(new int[] { 1, 0, 0, 65536 });
+            this.numUpDown_sigma1.Name = "numUpDown_sigma1";
+            this.numUpDown_sigma1.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_sigma1.TabIndex = 1;
+            this.numUpDown_sigma1.Value = new decimal(new int[] { 3, 0, 0, 0 });
             // 
-            // numUpDown_amplitude1
+            // numUpDown_a1
             // 
-            this.numUpDown_amplitude1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numUpDown_amplitude1.DecimalPlaces = 1;
-            this.numUpDown_amplitude1.Increment = new decimal(new int[] {
-            5,
-            0,
-            0,
-            65536});
-            this.numUpDown_amplitude1.Location = new System.Drawing.Point(37, 19);
-            this.numUpDown_amplitude1.Name = "numUpDown_amplitude1";
-            this.numUpDown_amplitude1.Size = new System.Drawing.Size(95, 20);
-            this.numUpDown_amplitude1.TabIndex = 0;
-            this.numUpDown_amplitude1.Value = new decimal(new int[] {
-            4,
-            0,
-            0,
-            0});
+            this.numUpDown_a1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.numUpDown_a1.DecimalPlaces = 1;
+            this.numUpDown_a1.Increment = new decimal(new int[] { 5, 0, 0, 65536 });
+            this.numUpDown_a1.Location = new System.Drawing.Point(37, 19);
+            this.numUpDown_a1.Name = "numUpDown_a1";
+            this.numUpDown_a1.Size = new System.Drawing.Size(95, 20);
+            this.numUpDown_a1.TabIndex = 0;
+            this.numUpDown_a1.Value = new decimal(new int[] { 4, 0, 0, 0 });
             // 
             // groupBox_graphAmplSpectrum
             // 
@@ -751,42 +566,42 @@ namespace Phase_Problem
             // 
             // chart_amplSpectr
             // 
-            chartArea4.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
-            chartArea4.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea4.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea4.AxisX.MajorTickMark.Enabled = false;
-            chartArea4.AxisX.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
-            chartArea4.AxisX.Minimum = 0D;
-            chartArea4.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea4.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea4.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea4.AxisY.MajorTickMark.Enabled = false;
-            chartArea4.AxisY.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
-            chartArea4.Name = "ChartArea1";
-            this.chart_amplSpectr.ChartAreas.Add(chartArea4);
-            legend4.BackColor = System.Drawing.Color.Transparent;
-            legend4.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
-            legend4.DockedToChartArea = "ChartArea1";
-            legend4.Enabled = false;
-            legend4.IsTextAutoFit = false;
-            legend4.Name = "Legend1";
-            legend4.TitleBackColor = System.Drawing.Color.White;
-            this.chart_amplSpectr.Legends.Add(legend4);
+            chartArea1.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
+            chartArea1.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea1.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea1.AxisX.MajorTickMark.Enabled = false;
+            chartArea1.AxisX.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
+            chartArea1.AxisX.Minimum = 0D;
+            chartArea1.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea1.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea1.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea1.AxisY.MajorTickMark.Enabled = false;
+            chartArea1.AxisY.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
+            chartArea1.Name = "ChartArea1";
+            this.chart_amplSpectr.ChartAreas.Add(chartArea1);
+            legend1.BackColor = System.Drawing.Color.Transparent;
+            legend1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
+            legend1.DockedToChartArea = "ChartArea1";
+            legend1.Enabled = false;
+            legend1.IsTextAutoFit = false;
+            legend1.Name = "Legend1";
+            legend1.TitleBackColor = System.Drawing.Color.White;
+            this.chart_amplSpectr.Legends.Add(legend1);
             this.chart_amplSpectr.Location = new System.Drawing.Point(6, 19);
             this.chart_amplSpectr.Name = "chart_amplSpectr";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series5.Color = System.Drawing.Color.Red;
-            series5.Legend = "Legend1";
-            series5.Name = "Амплитудный спектр";
-            this.chart_amplSpectr.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Color = System.Drawing.Color.Red;
+            series1.Legend = "Legend1";
+            series1.Name = "Амплитудный спектр";
+            this.chart_amplSpectr.Series.Add(series1);
             this.chart_amplSpectr.Size = new System.Drawing.Size(688, 175);
             this.chart_amplSpectr.TabIndex = 1;
             this.chart_amplSpectr.Text = "chart_amplSpectr";
             // 
             // groupBoxgraph_graphSgnls
             // 
-            groupBoxgraph_graphSgnls.Controls.Add(this.chart_Sgnls);
+            groupBoxgraph_graphSgnls.Controls.Add(this.chart_Signals);
             groupBoxgraph_graphSgnls.Location = new System.Drawing.Point(168, 12);
             groupBoxgraph_graphSgnls.Name = "groupBoxgraph_graphSgnls";
             groupBoxgraph_graphSgnls.Size = new System.Drawing.Size(700, 200);
@@ -794,48 +609,48 @@ namespace Phase_Problem
             groupBoxgraph_graphSgnls.TabStop = false;
             groupBoxgraph_graphSgnls.Text = "График исходного и восстановленого сигналов";
             // 
-            // chart_Sgnls
+            // chart_Signals
             // 
-            chartArea5.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
-            chartArea5.AxisX.Interval = 100D;
-            chartArea5.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea5.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea5.AxisX.MajorTickMark.Enabled = false;
-            chartArea5.AxisX.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
-            chartArea5.AxisX.Maximum = 1023D;
-            chartArea5.AxisX.Minimum = 0D;
-            chartArea5.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea5.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea5.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea5.AxisY.MajorTickMark.Enabled = false;
-            chartArea5.AxisY.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
-            chartArea5.AxisY.Minimum = 0D;
-            chartArea5.Name = "ChartArea1";
-            this.chart_Sgnls.ChartAreas.Add(chartArea5);
-            legend5.BackColor = System.Drawing.Color.Transparent;
-            legend5.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
-            legend5.DockedToChartArea = "ChartArea1";
-            legend5.IsTextAutoFit = false;
-            legend5.Name = "Legend1";
-            legend5.TitleBackColor = System.Drawing.Color.White;
-            this.chart_Sgnls.Legends.Add(legend5);
-            this.chart_Sgnls.Location = new System.Drawing.Point(6, 19);
-            this.chart_Sgnls.Name = "chart_Sgnls";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series6.Color = System.Drawing.Color.Blue;
-            series6.Legend = "Legend1";
-            series6.Name = "Исходный сигнал";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series7.Color = System.Drawing.Color.Green;
-            series7.Legend = "Legend1";
-            series7.Name = "Восстановленный сигнал";
-            this.chart_Sgnls.Series.Add(series6);
-            this.chart_Sgnls.Series.Add(series7);
-            this.chart_Sgnls.Size = new System.Drawing.Size(688, 175);
-            this.chart_Sgnls.TabIndex = 0;
-            this.chart_Sgnls.Text = "chart_Sgnls";
+            chartArea2.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
+            chartArea2.AxisX.Interval = 100D;
+            chartArea2.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea2.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea2.AxisX.MajorTickMark.Enabled = false;
+            chartArea2.AxisX.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
+            chartArea2.AxisX.Maximum = 1023D;
+            chartArea2.AxisX.Minimum = 0D;
+            chartArea2.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea2.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea2.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea2.AxisY.MajorTickMark.Enabled = false;
+            chartArea2.AxisY.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
+            chartArea2.AxisY.Minimum = 0D;
+            chartArea2.Name = "ChartArea1";
+            this.chart_Signals.ChartAreas.Add(chartArea2);
+            legend2.BackColor = System.Drawing.Color.Transparent;
+            legend2.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
+            legend2.DockedToChartArea = "ChartArea1";
+            legend2.IsTextAutoFit = false;
+            legend2.Name = "Legend1";
+            legend2.TitleBackColor = System.Drawing.Color.White;
+            this.chart_Signals.Legends.Add(legend2);
+            this.chart_Signals.Location = new System.Drawing.Point(6, 19);
+            this.chart_Signals.Name = "chart_Signals";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Color = System.Drawing.Color.Blue;
+            series2.Legend = "Legend1";
+            series2.Name = "Исходный сигнал";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.Color = System.Drawing.Color.Green;
+            series3.Legend = "Legend1";
+            series3.Name = "Восстановленный сигнал";
+            this.chart_Signals.Series.Add(series2);
+            this.chart_Signals.Series.Add(series3);
+            this.chart_Signals.Size = new System.Drawing.Size(688, 175);
+            this.chart_Signals.TabIndex = 0;
+            this.chart_Signals.Text = "chart_Sgnls";
             // 
             // label_deviation
             // 
@@ -949,35 +764,35 @@ namespace Phase_Problem
             // 
             // chart_phaseSpectr
             // 
-            chartArea6.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
-            chartArea6.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea6.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea6.AxisX.MajorTickMark.Enabled = false;
-            chartArea6.AxisX.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
-            chartArea6.AxisX.Minimum = 0D;
-            chartArea6.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
-            chartArea6.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea6.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea6.AxisY.MajorTickMark.Enabled = false;
-            chartArea6.AxisY.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
-            chartArea6.Name = "ChartArea1";
-            this.chart_phaseSpectr.ChartAreas.Add(chartArea6);
-            legend6.BackColor = System.Drawing.Color.Transparent;
-            legend6.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
-            legend6.DockedToChartArea = "ChartArea1";
-            legend6.Enabled = false;
-            legend6.IsTextAutoFit = false;
-            legend6.Name = "Legend1";
-            legend6.TitleBackColor = System.Drawing.Color.White;
-            this.chart_phaseSpectr.Legends.Add(legend6);
+            chartArea3.AlignmentOrientation = ((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations)((System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Vertical | System.Windows.Forms.DataVisualization.Charting.AreaAlignmentOrientations.Horizontal)));
+            chartArea3.AxisX.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea3.AxisX.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea3.AxisX.MajorTickMark.Enabled = false;
+            chartArea3.AxisX.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
+            chartArea3.AxisX.Minimum = 0D;
+            chartArea3.AxisX.MinorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dot;
+            chartArea3.AxisY.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea3.AxisY.MajorGrid.LineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
+            chartArea3.AxisY.MajorTickMark.Enabled = false;
+            chartArea3.AxisY.MajorTickMark.TickMarkStyle = System.Windows.Forms.DataVisualization.Charting.TickMarkStyle.InsideArea;
+            chartArea3.Name = "ChartArea1";
+            this.chart_phaseSpectr.ChartAreas.Add(chartArea3);
+            legend3.BackColor = System.Drawing.Color.Transparent;
+            legend3.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.HorizontalCenter;
+            legend3.DockedToChartArea = "ChartArea1";
+            legend3.Enabled = false;
+            legend3.IsTextAutoFit = false;
+            legend3.Name = "Legend1";
+            legend3.TitleBackColor = System.Drawing.Color.White;
+            this.chart_phaseSpectr.Legends.Add(legend3);
             this.chart_phaseSpectr.Location = new System.Drawing.Point(6, 19);
             this.chart_phaseSpectr.Name = "chart_phaseSpectr";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series8.Color = System.Drawing.Color.Red;
-            series8.Legend = "Legend1";
-            series8.Name = "Фазовый спектр";
-            this.chart_phaseSpectr.Series.Add(series8);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.Color = System.Drawing.Color.Red;
+            series4.Legend = "Legend1";
+            series4.Name = "Фазовый спектр";
+            this.chart_phaseSpectr.Series.Add(series4);
             this.chart_phaseSpectr.Size = new System.Drawing.Size(688, 175);
             this.chart_phaseSpectr.TabIndex = 1;
             this.chart_phaseSpectr.Text = "chart_phaseSpectr";
@@ -1001,6 +816,7 @@ namespace Phase_Problem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(877, 692);
             this.Controls.Add(groupBox_graphPhaseSpectrum);
             this.Controls.Add(this.button_generateSgnl);
@@ -1008,63 +824,63 @@ namespace Phase_Problem
             this.Controls.Add(groupBox_graphAmplSpectrum);
             this.Controls.Add(groupBoxgraph_graphSgnls);
             this.Controls.Add(groupBox_paramSgnl);
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Решение фазовой проблемы с помощью алгоритма Фиенупа";
             this.Load += new System.EventHandler(this.OnLoadMainForm);
             groupBox_paramSgnl.ResumeLayout(false);
             groupBox_dome5.ResumeLayout(false);
             groupBox_dome5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a5)).EndInit();
             groupBox_dome4.ResumeLayout(false);
             groupBox_dome4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a4)).EndInit();
             groupBox_dome3.ResumeLayout(false);
             groupBox_dome3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a3)).EndInit();
             groupBox_dome2.ResumeLayout(false);
             groupBox_dome2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a2)).EndInit();
             groupBox_dome1.ResumeLayout(false);
             groupBox_dome1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_mathExpectation1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_standartDeviation1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_amplitude1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_shift1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_sigma1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numUpDown_a1)).EndInit();
             groupBox_graphAmplSpectrum.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart_amplSpectr)).EndInit();
             groupBoxgraph_graphSgnls.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chart_Sgnls)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_Signals)).EndInit();
             groupBox_phaseRecovery.ResumeLayout(false);
             groupBox_phaseRecovery.PerformLayout();
             groupBox_graphPhaseSpectrum.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chart_phaseSpectr)).EndInit();
             this.ResumeLayout(false);
-
         }
 
         #endregion
-        private System.Windows.Forms.NumericUpDown numUpDown_mathExpectation3;
-        private System.Windows.Forms.NumericUpDown numUpDown_standartDeviation3;
-        private System.Windows.Forms.NumericUpDown numUpDown_amplitude3;
-        private System.Windows.Forms.NumericUpDown numUpDown_mathExpectation2;
-        private System.Windows.Forms.NumericUpDown numUpDown_standartDeviation2;
-        private System.Windows.Forms.NumericUpDown numUpDown_amplitude2;
-        private System.Windows.Forms.NumericUpDown numUpDown_mathExpectation1;
-        private System.Windows.Forms.NumericUpDown numUpDown_standartDeviation1;
-        private System.Windows.Forms.NumericUpDown numUpDown_amplitude1;
-        private System.Windows.Forms.NumericUpDown numUpDown_mathExpectation5;
-        private System.Windows.Forms.NumericUpDown numUpDown_standartDeviation5;
-        private System.Windows.Forms.NumericUpDown numUpDown_amplitude5;
-        private System.Windows.Forms.NumericUpDown numUpDown_mathExpectation4;
-        private System.Windows.Forms.NumericUpDown numUpDown_standartDeviation4;
-        private System.Windows.Forms.NumericUpDown numUpDown_amplitude4;
+        private System.Windows.Forms.NumericUpDown numUpDown_shift3;
+        private System.Windows.Forms.NumericUpDown numUpDown_sigma3;
+        private System.Windows.Forms.NumericUpDown numUpDown_a3;
+        private System.Windows.Forms.NumericUpDown numUpDown_shift2;
+        private System.Windows.Forms.NumericUpDown numUpDown_sigma2;
+        private System.Windows.Forms.NumericUpDown numUpDown_a2;
+        private System.Windows.Forms.NumericUpDown numUpDown_shift1;
+        private System.Windows.Forms.NumericUpDown numUpDown_sigma1;
+        private System.Windows.Forms.NumericUpDown numUpDown_a1;
+        private System.Windows.Forms.NumericUpDown numUpDown_shift5;
+        private System.Windows.Forms.NumericUpDown numUpDown_sigma5;
+        private System.Windows.Forms.NumericUpDown numUpDown_a5;
+        private System.Windows.Forms.NumericUpDown numUpDown_shift4;
+        private System.Windows.Forms.NumericUpDown numUpDown_sigma4;
+        private System.Windows.Forms.NumericUpDown numUpDown_a4;
         private System.Windows.Forms.TextBox textBox_accuracy;
         private System.Windows.Forms.TextBox textBox_deviation;
         private System.Windows.Forms.Button button_generateSgnl;
@@ -1072,7 +888,7 @@ namespace Phase_Problem
         private System.Windows.Forms.Button button_Reset;
         private System.Windows.Forms.Button button_Shift;
         private System.Windows.Forms.Button button_Start;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart_Sgnls;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart_Signals;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_amplSpectr;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_phaseSpectr;
         private System.Windows.Forms.Button button_Reverse;
